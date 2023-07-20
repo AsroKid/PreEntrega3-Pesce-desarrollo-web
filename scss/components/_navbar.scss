@@ -1,0 +1,27 @@
+header{
+  background-color: #4d0202;
+  position: relative;
+  padding: 3rem;
+  .navbar-nav{
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      .navbar .logo{
+          font-size: 4rem;
+          font-weight: bold;
+          .links{
+              display: flex;
+              gap: 3rem;
+              padding: 2rem;
+          }
+      }
+  }
+}
+.navbar-brand {
+  font-size: 3rem;
+  justify-content: space-between ;
+}

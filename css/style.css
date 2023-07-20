@@ -1,0 +1,155 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header {
+  background-color: #4d0202;
+  position: relative;
+  padding: 3rem;
+}
+header .navbar-nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+header .navbar-nav .navbar .logo {
+  font-size: 4rem;
+  font-weight: bold;
+}
+header .navbar-nav .navbar .logo .links {
+  display: flex;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.navlinks {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.logo:hover {
+  color: #270606;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: rgb(37, 4, 4);
+  transition: 0.2s;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+section img {
+  border: 3px solid rgb(66, 66, 66);
+  border-radius: 10px;
+}
+section h2 {
+  margin-bottom: 20px;
+}
+section p {
+  margin-bottom: 40px;
+}
+
+.cuadros {
+  border: 6px solid rgb(161, 11, 11);
+  background-color: gray;
+  border-radius: 10px;
+}
+.cuadros .botones {
+  border: 6px solid rgb(107, 107, 107);
+  background-color: firebrick;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.tamañoimg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.botones:hover {
+  background-color: rgb(100, 20, 20);
+}
+
+footer {
+  background-color: #4d0202;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.formulario {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px;
+}
+.formulario .h2-form {
+  text-align: center;
+  color: #4d0202;
+}
+.formulario .form-input {
+  width: 100%;
+  margin: 15px auto;
+  padding: 15px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+.formulario .form-boton {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: gainsboro;
+  border-style: none;
+}
+.formulario .form-boton:hover {
+  background-color: #4d0202;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */

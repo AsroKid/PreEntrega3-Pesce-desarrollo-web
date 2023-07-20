@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+// base
+@import "./base/extend";
+@import "./base/variables";
+// components
+@import "./components/navbar";
+@import "./components/global";
+@import "./components/cuadros";
+@import "./components/footer";
+@import "./components/form";

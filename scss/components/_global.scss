@@ -1,0 +1,40 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+p {
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+}
+li{
+  list-style: none;
+}
+.navlinks{
+  font-size: 2rem;
+  font-weight: normal;
+}
+.logo:hover{
+  color: #270606;
+  transition: 0.2s;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+a:hover{
+  color: rgb(37, 4, 4);
+  transition: 0.2s;
+}
